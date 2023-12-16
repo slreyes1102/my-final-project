@@ -1,0 +1,49 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+li {
+  margin: 0 15px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* Add the pipe separator between navigation items */
+nav li:not(:last-child)::after {
+  content: ' | ';
+  margin-left: 5px;
+  color: #000; /* Change the color as needed */
+}

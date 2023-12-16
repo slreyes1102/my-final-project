@@ -1,0 +1,16 @@
+/* Form.css */
+.form-group {
+  margin-bottom: 15px; /* Adjust as needed for spacing */
+  line-height: 1.5; /* Adjust for line spacing */
+}
+
+.form-group label {
+  display: inline-block;
+  width: 150px; /* Adjust as needed for label width */
+  margin-bottom: 5px; /* Adjust as needed for spacing */
+}
+
+.form-group input {
+  display: inline-block;
+  width: 200px; /* Adjust as needed for input width */
+}
